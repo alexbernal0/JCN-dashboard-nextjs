@@ -3,20 +3,5 @@
   "devCommand": "pnpm dev",
   "installCommand": "pnpm install",
   "framework": null,
-  "outputDirectory": "dist",
-  "functions": {
-    "api/**/*.py": {
-      "runtime": "python3.9"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/api/:path*",
-      "destination": "/api/:path*"
-    },
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
+  "outputDirectory": "dist"
 }
