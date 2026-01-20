@@ -10,6 +10,9 @@ Migrating JCN Financial Dashboard from Streamlit to Next.js + React + TypeScript
 ### Infrastructure Setup
 - [x] Initialize Next.js project with TypeScript + Tailwind CSS
 - [x] Set up MotherDuck database connection via Python API routes
+- [x] Convert Python API routes to TypeScript for Vercel compatibility
+- [x] Create MotherDuck REST API helper
+- [x] Create fundamentals tRPC router
 - [x] Configure environment variables (MotherDuck token validated)
 - [ ] Create error logging and monitoring system
 - [ ] Set up Vercel deployment configuration
